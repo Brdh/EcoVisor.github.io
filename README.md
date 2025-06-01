@@ -1,2 +1,2 @@
-# EcoVisor.githuh.io
+# EcoVisor.github.io
 Página web do projeto EcoVisor.
