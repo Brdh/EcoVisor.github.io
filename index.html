@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal">
+
+    </script>
+    <title> EcoVisor </title>
+
+   
+
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-seedling" id="nav_logo"> EcoVisor</i>
+        
+            <ul id="nav_list">
+  <li class="nav-item active"><a href="#home">Início</a></li>
+  <li class="nav-item"><a href="#testimonials">Sobre o projeto</a></li>
+  <li class="nav-item"><a href="#menu">Espécies</a></li>
+  <li class="nav-item"> <a href="#Dashboard" onclick="scrollToTop()">Dashboard</a>
+</li>
+  <li class="nav-item"><a href="#Download" onclick="scrollToTop()">Download de dados</a></li>
+</ul>
+
+<script>
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
+            <button a href="tel:+5561993190739" class="btn-default">
+                Contate-nos
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+           <ul id="mobile_nav_list">
+  <li class="nav-item active"><a href="#home">Início</a></li>
+  <li class="nav-item"><a href="#testimonials">Sobre o projeto</a></li>
+  <li class="nav-item"><a href="#menu">Espécies</a></li>
+  <li class="nav-item"><a href="#Dashboard" onclick="scrollToTop()">Dashboard</a></li>
+  <li class="nav-item"><a href="#Download" onclick="scrollToTop()">Download de dados</a></li>
+</ul>
+
+
+            <button class="btn-default">
+                Contate-nos
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+           
+            <div id="cta">
+                <h1 class="title">
+                    Um olhar para o verde
+                    <span>EcoVisor</span>
+                </h1>
+
+                <p class="description">
+                    O EcoVisor oferece um olhar detalhado sobre como o desmatamento contribui para a extinção de espécies
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="src/downloads/Desmatamento.pbix" onclick="scrollToTop()" class="btn-default">
+                        Dashboard
+                    </a>
+
+                    <a href="src/downloads/Bancodedadosdesmatamento.rar" id="phone_button">
+                      
+                            <i class=""></i>
+                        </button>
+                        Download de dados
+                    </a>
+                </div>
+
+          
+            </div>
+
+            <div id="banner">
+                <img src="src/images/oncaindex.png" alt="" class="reveal-onca">
+            </div>
+        </section>
+
+
+        <section id="testimonials">
+            <img src="src/images/desmatamento.png" id="desmatamento" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Sobre o projeto
+                </h2>
+                <h3 class="section-subtitle">
+                    Porque cada árvore caída leva vidas junto
+                </h3>
+
+
+
+
+
+
+                
+                <div id="feedbacks">
+                    <div class="feedback">
+                       
+
+                        <div class="feedback-content">
+                           
+                            <p>
+                                Nosso projeto nasceu com o propósito de conscientizar sobre os impactos do desmatamento e como ele afeta diretamente a vida dos animais, os ecossistemas e, consequentemente, o nosso futuro. Sabemos que a preservação ambiental é fundamental para garantir a sustentabilidade do planeta e a qualidade de vida das próximas gerações.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                       
+
+                        <div class="feedback-content">
+                    
+                            <p>
+                                Por isso, buscamos informar, sensibilizar e engajar pessoas, organizações e comunidades a agirem de forma responsável e consciente. Acreditamos que, por meio do conhecimento e da colaboração, é possível reverter os danos causados e construir um mundo mais equilibrado, onde a natureza e o ser humano coexistam em harmonia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+               
+            </div>
+        </section>
+    </main>
+
+     <section id="menu">
+            <h2 class="section-title"> Espécies ameaçadas </h2>
+            <h3 class="section-subtitle"> veja quem está prestes a sumir </h3>
+
+            <div id="extincao">
+                <div class="extinto">
+                    <div class="extincao_indicador">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                    </div>
+
+                    <img src="src/images/gaviao.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Gavião-real
+                    </h3>
+
+                    <span class="extincao_descricao">
+                        Também conhecido como harpia (Harpia harpyja), é uma das maiores aves de rapina do mundo.
+                    </span>
+
+                    <div class="extincao_indice">
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-regular fa-circle"></i>
+                       
+                    </div>
+
+                </div>
+
+                <div class="extinto">
+                    <div class="extincao_indicador">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                    </div>
+
+                    <img src="src/images/onça pintada.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Onça-pintada
+                    </h3>
+
+                    <span class="extincao_descricao">
+                        A onça-pintada (Panthera onca) é o maior felino das Américas e um dos principais predadores do topo da cadeia alimentar.
+                    </span>
+
+                    <div class="extincao_indice">
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-regular fa-circle"></i>
+                        <i class="fa-regular fa-circle"></i>
+                       
+                    </div>
+
+                </div>
+
+                <div class="extinto">
+                    <div class="extincao_indicador">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                    </div>
+
+                    <img src="src/images/lobo.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Lobo-guará
+                    </h3>
+
+                    <span class="extincao_descricao">
+                        O lobo-guará (Chrysocyon brachyurus) é o maior canídeo da América do Sul, conhecido por suas pernas longas e pelagem avermelhada.
+                    </span>
+
+                    <div class="extincao_indice">
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-regular fa-circle"></i>
+                    </div>
+
+                </div>
+
+                <div class="extinto">
+                    <div class="extincao_indicador">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                    </div>
+
+                    <img src="src/images/mico.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Mico-leão-dourado
+                    </h3>
+
+                    <span class="extincao_descricao">
+                        O mico-leão-dourado (Leontopithecus rosalia) é um pequeno primata da Mata Atlântica, com pelagem dourada e uma “juba” que lembra a de um leão
+                    </span>
+
+                    <div class="extincao_indice">
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-regular fa-circle"></i>
+                        <i class="fa-regular fa-circle"></i>
+                        <i class="fa-regular fa-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        
+           
+        </div>
+    </footer>
+
+    <script src="src/javascript/script.js"></script>
+
+    <script>
+  function activateMenuItem(navSelector) {
+    const navItems = document.querySelectorAll(`${navSelector} .nav-item`);
+
+    navItems.forEach(item => {
+      item.addEventListener('click', () => {
+        navItems.forEach(i => i.classList.remove('active'));
+        item.classList.add('active');
+      });
+    });
+  }
+
+  activateMenuItem('#nav_list');         
+  activateMenuItem('#mobile_nav_list');  
+</script>
+
+
+
+
+
+
+
+    
+
+    
+</body>
+</html>
