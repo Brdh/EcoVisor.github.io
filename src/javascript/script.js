@@ -3,7 +3,7 @@ $(document).ready(function () {
     const navItems = $('.nav-item');
     const header = $('header');
 
-    // ✅ BOTÃO MENU MOBILE
+  
     $('#mobile_btn').on('click', function () {
         $('#mobile_menu').toggleClass('active');
         $(this).find('i').toggleClass('fa-x');
